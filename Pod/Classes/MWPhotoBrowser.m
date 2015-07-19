@@ -161,7 +161,7 @@ static void * MWVideoPlayerObservation = &MWVideoPlayerObservation;
     // Toolbar
     _toolbar = [[UIToolbar alloc] initWithFrame:[self frameForToolbarAtOrientation:self.interfaceOrientation]];
     _toolbar.tintColor = [UIColor whiteColor];
-    _toolbar.barTintColor = nil;
+    _toolbar.barTintColor = [UIColor colorWithRed:99.0/255.0 green:92.0/255.0 blue:241.0/255.0 alpha:1.0];
     [_toolbar setBackgroundImage:nil forToolbarPosition:UIToolbarPositionAny barMetrics:UIBarMetricsDefault];
     [_toolbar setBackgroundImage:nil forToolbarPosition:UIToolbarPositionAny barMetrics:UIBarMetricsLandscapePhone];
     _toolbar.barStyle = UIBarStyleBlackTranslucent;
@@ -437,7 +437,7 @@ static void * MWVideoPlayerObservation = &MWVideoPlayerObservation;
     [self.navigationController setNavigationBarHidden:NO animated:animated];
     UINavigationBar *navBar = self.navigationController.navigationBar;
     navBar.tintColor = [UIColor whiteColor];
-    navBar.barTintColor = nil;
+    navBar.barTintColor = [UIColor colorWithRed:99.0/255.0 green:92.0/255.0 blue:241.0/255.0 alpha:1.0];
     navBar.shadowImage = nil;
     navBar.translucent = YES;
     navBar.barStyle = UIBarStyleBlackTranslucent;
